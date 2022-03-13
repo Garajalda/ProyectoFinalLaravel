@@ -21,9 +21,9 @@
         @endif
       
   @else
-        <a class="nav-link" href="#">Bienvenido</a>
-        <a class="nav-link" href="#">Instrucciones</a>
-        <a class="nav-link" href="#">Créditos</a>
+        <a class="nav-link" href="/">Bienvenido</a>
+        <a class="nav-link" href="/instrucciones">Instrucciones</a>
+        <a class="nav-link" href="/creditos">Créditos</a>
 
   @endif
   
