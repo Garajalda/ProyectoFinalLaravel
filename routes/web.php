@@ -70,7 +70,7 @@ Route::group(['middleware' => 'admin'], function(){
     
 
     // Category
-    Route::post('/categorias', [App\Http\Controllers\Admin\CategoryController::class, 'store'])->name('edit');
+    Route::post('/categorias', [App\Http\Controllers\Admin\CategoryController::class, 'add'])->name('edit');
     Route::post('/categoria/editar', [App\Http\Controllers\Admin\CategoryController::class, 'update'])->name('edit');
     Route::get('/categoria/{id}/eliminar', [App\Http\Controllers\Admin\CategoryController::class, 'delete'])->name('index');
     //level
