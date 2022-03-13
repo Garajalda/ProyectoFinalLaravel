@@ -8,19 +8,6 @@
         <p>Proyecto creado por laravel</p>
 
     </div>
-  
-
-    
-
 </div>
-
-    
-    
-
-
-
-
-
-
         
 @endsection
