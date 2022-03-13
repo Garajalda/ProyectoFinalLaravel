@@ -16,19 +16,19 @@ class CategoriesTableSeeder extends Seeder
     public function run()
     {
         Category::create([
-            'name' => 'Categoría A1',
+            'name' => 'Categoría 1',
             'project_id' => 1
         ]);
         Category::create([
-            'name' => 'Categoría A2',
+            'name' => 'Categoría 2',
             'project_id' => 1
         ]);
         Category::create([
-            'name' => 'Categoría B1',
+            'name' => 'Categoría 1',
             'project_id' => 2
         ]);
         Category::create([
-            'name' => 'Categoría B2',
+            'name' => 'Categoría 2',
             'project_id' => 2
         ]);
     }

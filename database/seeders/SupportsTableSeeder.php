@@ -16,13 +16,13 @@ class SupportsTableSeeder extends Seeder
     {
         //support
         User::create([ //id 3
-            'name' => 'Support N1',
-            'email' => 'support@gmail.com',
+            'name' => 'Support 1',
+            'email' => 'support1@gmail.com',
             'password' => bcrypt('12345678'),
             'role' => 1
         ]);
         User::create([ //id 4
-            'name' => 'Support N2',
+            'name' => 'Support 2',
             'email' => 'support2@gmail.com',
             'password' => bcrypt('12345678'),
             'role' => 1
