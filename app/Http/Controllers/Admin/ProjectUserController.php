@@ -14,9 +14,17 @@ class ProjectUserController extends Controller
         $project_user->project_id = $request->input('project_id');
         $project_user->user_id = $request->input('user_id');
         $project_user->level_id = $request->input('level_id');
-        $project_user->save();
+        
+        
+        if($project_user->level_id){
+            
+            $project_user->save();
+            return back();
+        }
 
-        return back();
+
+        return back()->with('notification','Debe añadir un nivel al proyecto.');
+       
 
     }
 
